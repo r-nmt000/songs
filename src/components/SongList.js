@@ -19,7 +19,6 @@ class SongList extends React.Component {
         })
     }
     render() {
-        console.log(this.props);
         return <div className="ui devided list">{this.renderList()}</div>;
     }
 }
